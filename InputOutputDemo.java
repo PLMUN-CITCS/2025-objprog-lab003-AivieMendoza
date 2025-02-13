@@ -6,12 +6,10 @@ public class InputOutputDemo {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter an integer: ");
         int userInt = input.nextInt();
-
         System.out.print("Enter a decimal number: ");
         double userDouble = input.nextDouble();
         input.nextLine(); // Consume newline
-
-      
+		
         System.out.print("Enter a word or sentence: ");
         String userString = input.nextLine();
         System.out.printf("Your integer: %d%n", userInt);
